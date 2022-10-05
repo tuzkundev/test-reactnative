@@ -10,6 +10,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from './screens/HomeScreen';
 import LoginScreen from './screens/LoginScreen';
 import EditProfile from './screens/EditProfile';
+import OderManage from './screens/OderManage';
 
 //import {library} from '@fortawesome/fontawesome-svg-core';
 import {fab} from '@fortawesome/free-brands-svg-icons';
@@ -51,7 +52,7 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
         {/* <Stack.Screen name="LoginScreen" component={LoginScreen} /> */}
-        <Stack.Screen name="EditProfile" component={EditProfile} />
+        <Stack.Screen name="OrderManage" component={OderManage} />
       </Stack.Navigator>
     </NavigationContainer>
   );
